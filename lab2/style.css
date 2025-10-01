@@ -1,0 +1,99 @@
+.comparison-container {
+    display: flex;
+    gap: 50px; 
+    margin-top: 20px; 
+}
+
+.clock-container {
+    width: 156px; 
+    height: 156px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative; 
+    margin: 10px; 
+}
+
+.dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.hand {
+    position: absolute;
+    background-color: black;
+}
+
+/* За допомогою position */
+.minute-hand-position {
+    width: 6px;
+    height: 80px;
+    top: 14px;
+    left: 75px;
+}
+
+.hour-hand-position {
+    width: 65px;
+    height: 6px;
+    top: 75px;
+    left: 60px;
+}
+
+.dot-12-position {
+    top: 5px;
+    left: 69px;
+}
+
+.dot-3-position {
+    top: 69px;
+    right: 5px;
+
+}
+
+.dot-6-position {
+    bottom: 5px;
+    left: 69px;
+}
+
+.dot-9-position {
+    left: 5px;
+    top: 69px;
+}
+
+/* За допомогою transform */
+.hand-transform {
+    position: absolute;
+    background-color: black;
+}
+
+.hour-hand-transform {
+    width: 6px;
+    height: 65px; 
+    transform: translate(90px, 46px) rotate(90deg);
+}
+
+.minute-hand-transform {
+    width: 6px;
+    height: 80px;
+    transform: translate(76px, 14px);
+}
+
+.dot-12-transform {
+    transform: translate(70px, 5px);
+}
+
+.dot-3-transform {
+    transform: translate(5px, 70px);
+}
+
+.dot-6-transform {
+    transform: translate(132px, 70px);
+}
+
+.dot-9-transform {
+    transform: translate(70px, 132px);
+}

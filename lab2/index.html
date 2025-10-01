@@ -4,20 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        tr.header1 {
+            color: #451CEB;
+            background-color: #078f8f;
+        }
+
+        tr.header1:hover{
+            background-color: #f5f507;
+        }
+
+        tr.header2 {
+            color: #f01124;
+            background-color: #f5f507;
+        }
+
+        tr.header2:hover{
+            background-color: #078f8f;
+        }
+    </style>
 </head>
 <body>
     <table border="1">
+        <tr class="header1">
+            <td colspan="2" rowspan="2">Колєснік</td>
+            <td>Володимир</td>
+            <td>Валерійович</td>
+        </tr>
+        <tr class="header2">    
+            <td>ІО-34</td>
+            <td>Лаб 2 Варіант 7</td>
+        </tr>
+        <tr style="width: 50px; height: 10px;">
+            <td colspan="2"></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
         <tr>
-            <td colspan="2" rowspan="2">Клітинка A</td>
-            <td>test</td>
-            <td>test</td>
+            <td></td>
+            <td></td>
+            <td style="width: 50px; height: 10px;"></td>
         </tr>
-        <tr>    
-            <td>test</td>
-            <td>test</td>
-        </tr>
-
-
     </table>
+    <div class="comparison-container">
+        <div class="clock-container">
+            <div class="dot dot-12-position"></div>
+            <div class="dot dot-3-position"></div>
+            <div class="dot dot-6-position"></div>
+            <div class="dot dot-9-position"></div>
+
+            <div class="hand minute-hand-position"></div>
+            <div class="hand hour-hand-position"></div>
+        </div>
+
+        <div class="clock-container">
+            <div class="dot dot-12-transform"></div>
+            <div class="dot dot-3-transform"></div>
+            <div class="dot dot-6-transform"></div>
+            <div class="dot dot-9-transform"></div>
+
+            <div class="hand minute-hand-transform"></div>
+            <div class="hand hour-hand-transform"></div>
+        </div>
+    </div>
 </body>
 </html>
