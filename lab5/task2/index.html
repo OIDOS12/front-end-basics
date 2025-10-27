@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиця 6x6 з Взаємодією</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 480px; 
+            margin: 20px;
+        }
+        td {
+            border: 1px solid black;
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            font-size: 22px;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Завдання 2: Таблиця</h1>
+
+    <label for="colorPicker">Оберіть колір для кліку:</label>
+    <input type="color" id="colorPicker" value="#00FF00">
+    
+    <table id="table"></table>
+
+    <script src="script.js"></script>
+</body>
+</html>
