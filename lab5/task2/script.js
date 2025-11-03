@@ -25,7 +25,7 @@ for (let i = 0; i < rows; i++) {
 
         if (counter === var_number) {
             cellToMonitor = cell;
-            cell.style.border = '2px solid red'; 
+            cell.style.border = '3px solid red'; 
             cell.style.fontWeight = 'bold';
         }
 
