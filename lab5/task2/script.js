@@ -35,7 +35,7 @@ for (let i = 0; i < rows; i++) {
 
 cellToMonitor.addEventListener('mouseover', () => {
     cellToMonitor.style.backgroundColor = getRandomColor();
-});
+}); 
 
 cellToMonitor.addEventListener('click', () => {
     cellToMonitor.style.backgroundColor = colorPicker.value;
