@@ -5,7 +5,7 @@ function FormData(data){
         return false;
     }
 
-    const name_pattern = /^[A-Z][a-z]+(\s[A-Z][a-z]*)*\s([A-Z]\.){1,2}$/;    
+    const name_pattern = /^[А-ЯІЇЄҐ][а-яіїєґ]+(\s[А-ЯІЇЄҐ][а-яіїєґ]*)*\s([А-ЯІЇЄҐ]\.){1,2}$/;    
     if (!name_pattern.test(data.name.value)) {
         alert('Заповніть поле "ПІБ" у правильному форматі');
         return false;
@@ -17,7 +17,7 @@ function FormData(data){
         return false;
     }
 
-    const id_card_pattern = /^[A-Z]{2}\d{6}$/;
+    const id_card_pattern = /^[А-ЯІЇЄҐ]{2}\d{6}$/;
     if (!id_card_pattern.test(data.id_card.value)) {
         alert('Заповніть поле "ID-картка" у правильному форматі');
         return false;
@@ -35,7 +35,7 @@ function FormData(data){
         return false;
     }
 
-    const address_pattern = /^м.+\s[A-Z][a-z]*$/;
+    const address_pattern = /^м.+\s[А-ЯІЇЄҐ][а-яіїєґ]*$/;
     if (!address_pattern.test(data.address.value)) {
         alert('Заповніть поле "Адреса" у правильному форматі');
         return false;
@@ -58,4 +58,28 @@ function FormData(data){
         alert("Введіть правильний E-Mail");
         return false;
     }
+
+    const nameValue = data.name.value;
+    const idCardValue = data.id_card.value;
+    const bdateValue = data.bdate.value;
+    const addressValue = data.address.value;
+    const emailValue = data.email.value;
+
+    const outputHTML = `
+        <p><strong>1. ПІБ:</strong> ${nameValue}</p>
+        <p><strong>2. ID-картка:</strong> ${idCardValue}</p>
+        <p><strong>3. Дата народження:</strong> ${bdateValue}</p>
+        <p><strong>4. Адреса:</strong> ${addressValue}</p>
+        <p><strong>5. E-mail:</strong> ${emailValue}</p>
+    `;
+
+    const outputDataElement = document.getElementById('outputData');
+    const outputContainer = document.getElementById('outputContainer');
+    
+    if (outputDataElement && outputContainer) {
+        outputDataElement.innerHTML = outputHTML;
+        outputContainer.style.display = 'block';
+    }
+    
+    return false;
 }

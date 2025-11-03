@@ -10,7 +10,7 @@
     <div class="container">
         <div class ="form-block">
             <h2>Форма</h2>
-            <form action='index.html' method="post">
+            <form action='index.html' method="get">
                 1. ПІБ:<br>
                 <input type="text" name="name" placeholder="Tttttt T.T."><br>
 
@@ -27,6 +27,12 @@
                 <input type="email" name="email" placeholder="tttttt@ttttt.com"><br>
                 <button type="submit" onclick="return FormData(this.form)">Підвердити</button>
             </form>
+        </div>
+
+        <div class="output-block" id="outputContainer">
+            <h2>Введені дані</h2>
+            <div id="outputData"></div>
+
         </div>
     </div>
     <script src="./data.js"></script>

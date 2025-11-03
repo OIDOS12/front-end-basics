@@ -40,3 +40,12 @@
     background: #d8d8d8;
     box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
+
+.output-block {
+    margin-left: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 300px;
+    display: none;
+}
