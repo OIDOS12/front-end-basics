@@ -1,0 +1,58 @@
+.container {
+    font-family: arial;
+    font-size: 22px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    font-family: Arial;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    display: block;
+    margin: 15px auto;
+    width: 250px;
+}
+
+.container button:active {
+    background: #d8d8d8;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+.output-box { 
+    display: flex; 
+    flex-direction: row;
+}
+
+.user-card {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
