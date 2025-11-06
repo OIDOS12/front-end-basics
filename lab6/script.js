@@ -20,7 +20,7 @@ function formatUserDataHTML(user) {
 
 function getRandomUsers() {
     const outputElement = document.getElementById('output');
-    const successDiv = document.getElementById('successDiv');
+    const statusDiv = document.getElementById('statusDiv');
 
     outputElement.innerHTML = '<p>Завантаження...</p>';
 
@@ -36,11 +36,11 @@ function getRandomUsers() {
                 .map(user => formatUserDataHTML(user))
                 .join('<hr style="margin: 20px 0;">');
             const successMessage = `<p class="success-message">Success!</p>`;
-            successDiv.innerHTML = successMessage;
+            statusDiv.innerHTML = successMessage;
             outputElement.innerHTML = formattedOutput;
         })
         .catch(error => {
-            outputElement.innerHTML = `<p style="color: red;">Помилка: ${error.message}</p>`; 
+            statusDiv.innerHTML = `<p style="color: red;">Помилка: ${error.message}</p>`; 
             console.error('Fetch Error:', error);
         });
 }
