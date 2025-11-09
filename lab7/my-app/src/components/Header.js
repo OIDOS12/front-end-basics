@@ -22,6 +22,7 @@ function Header() {
       display: 'flex', 
       alignItems: 'center'
     }}>
+        
       <h1>Лабораторна робота №7</h1>
       <div className="tabs">
         <Link to="/task1" style={getButtonStyle('/task1')}>Завдання 1</Link>
