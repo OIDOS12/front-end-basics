@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/front-end-basics/lab7Docs/static/css/main.e6c13ad2.css",
-    "main.js": "/front-end-basics/lab7Docs/static/js/main.7423dac2.js",
+    "main.js": "/front-end-basics/lab7Docs/static/js/main.27a26ac4.js",
     "static/js/453.117b0875.chunk.js": "/front-end-basics/lab7Docs/static/js/453.117b0875.chunk.js",
     "static/media/apples.jpeg": "/front-end-basics/lab7Docs/static/media/apples.51300112bf7e0c29640a.jpeg",
     "static/media/blakes-pride-pear.png": "/front-end-basics/lab7Docs/static/media/blakes-pride-pear.cb571a827d722d0e55a4.png",
@@ -12,11 +12,11 @@
     "static/media/strawberry.jpeg": "/front-end-basics/lab7Docs/static/media/strawberry.176ca5aaddf60b4bb1f1.jpeg",
     "index.html": "/front-end-basics/lab7Docs/index.html",
     "main.e6c13ad2.css.map": "/front-end-basics/lab7Docs/static/css/main.e6c13ad2.css.map",
-    "main.7423dac2.js.map": "/front-end-basics/lab7Docs/static/js/main.7423dac2.js.map",
+    "main.27a26ac4.js.map": "/front-end-basics/lab7Docs/static/js/main.27a26ac4.js.map",
     "453.117b0875.chunk.js.map": "/front-end-basics/lab7Docs/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.7423dac2.js"
+    "static/js/main.27a26ac4.js"
   ]
 }
