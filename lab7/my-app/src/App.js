@@ -1,16 +1,27 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import Header from "./components/Header"
-import MainContent from "./components/MainContent"
-import Footer from "./components/Footer"
+import Content from "./components/task1/Content"
+import GoodsGallery from './components/task2/GoodsGallery';
 
 function App() {
-	return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
+  return (
+    <Router>
+      <div className="app-container">
+        <Header /> 
+        
+        <main>
+          <Routes>
+            <Route path="/task1" element={<Content />} /> 
+            
+            <Route path="/task2" element={<GoodsGallery />} />
+            
+            <Route path="/" element={<Navigate to="/task1" replace />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   )
 }
 
