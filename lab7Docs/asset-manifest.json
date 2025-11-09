@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/front-end-basics/lab7Docs/static/css/main.e6c13ad2.css",
+    "main.js": "/front-end-basics/lab7Docs/static/js/main.27a26ac4.js",
+    "static/js/453.117b0875.chunk.js": "/front-end-basics/lab7Docs/static/js/453.117b0875.chunk.js",
+    "static/media/apples.jpeg": "/front-end-basics/lab7Docs/static/media/apples.51300112bf7e0c29640a.jpeg",
+    "static/media/blakes-pride-pear.png": "/front-end-basics/lab7Docs/static/media/blakes-pride-pear.cb571a827d722d0e55a4.png",
+    "static/media/durian.jpg": "/front-end-basics/lab7Docs/static/media/durian.c5ca1a83e3b4268f32b1.jpg",
+    "static/media/prague.jpg": "/front-end-basics/lab7Docs/static/media/prague.1a4ca28a247a1225a982.jpg",
+    "static/media/dates.jpg": "/front-end-basics/lab7Docs/static/media/dates.a064eaf439148d88c5b9.jpg",
+    "static/media/plums.jpg": "/front-end-basics/lab7Docs/static/media/plums.974c031acd9aade70d7c.jpg",
+    "static/media/strawberry.jpeg": "/front-end-basics/lab7Docs/static/media/strawberry.176ca5aaddf60b4bb1f1.jpeg",
+    "index.html": "/front-end-basics/lab7Docs/index.html",
+    "main.e6c13ad2.css.map": "/front-end-basics/lab7Docs/static/css/main.e6c13ad2.css.map",
+    "main.27a26ac4.js.map": "/front-end-basics/lab7Docs/static/js/main.27a26ac4.js.map",
+    "453.117b0875.chunk.js.map": "/front-end-basics/lab7Docs/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.27a26ac4.js"
+  ]
+}
