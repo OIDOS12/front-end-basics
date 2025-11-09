@@ -1,13 +1,13 @@
 import React from 'react';
 import GoodsCard from './GoodsCard';
 
-import appleImage from './apples.jpeg';
-import pearImage from './blakes-pride-pear.png';
-import plumImage from './plums.jpg';
-import datesImage from './dates.jpg';
-import strawberryImage from './strawberry.jpeg';
-import durianImage from './durian.jpg';
-import pineappleImage from './pineapple.jpeg';
+import appleImage from './images/apples.jpeg';
+import pearImage from './images/blakes-pride-pear.png';
+import plumImage from './images/plums.jpg';
+import datesImage from './images/dates.jpg';
+import strawberryImage from './images/strawberry.jpeg';
+import durianImage from './images/durian.jpg';
+import pineappleImage from './images/pineapple.jpeg';
 
 const goodsData = [
   { id: 1, name: "Яблука", price: 59, image: appleImage },

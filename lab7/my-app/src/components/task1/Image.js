@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import pragueImage from './prague.jpg';
+import pragueImage from './images/prague.jpg';
 
 const Image = () => {
   const STEP = 50;
