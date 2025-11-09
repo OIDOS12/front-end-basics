@@ -7,7 +7,7 @@ import GoodsGallery from './components/task2/GoodsGallery';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/front-end-basics/lab7Docs">
       <div className="app-container">
         <Header /> 
         
