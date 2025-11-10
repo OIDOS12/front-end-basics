@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 import Header from "./components/Header"
@@ -6,6 +6,9 @@ import Content from "./components/task1/Content"
 import GoodsGallery from './components/task2/GoodsGallery';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Koliesnik V. V. IO-34, lab 7';
+  }, []);
   return (
     <Router basename="/front-end-basics/lab7Docs">
       <div className="app-container">
